@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.container {
+  min-width: 500px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.search {
+  padding: .75rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: #0f3460;
+  margin-top: 5px;
+  padding: 1rem;
+  letter-spacing: 1px;
+  color: #ddd;
+}
+
+.card h4 {
+  margin: 0;
+}
+
+.card span {
+  color: #e94560;
+}
+
+.card small {
+  margin-bottom: 12px;
+  font-size: 11px;
+}
