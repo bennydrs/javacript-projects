@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: rgb(36, 31, 70);
+  text-align: center;
+}
+
+header {
+  background-color: darkslateblue;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  margin: 1rem;
+}
+
+h2, h3, h4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.lavel {
+  margin-bottom: 1.5rem;
+}
+
+select {
+  width: 18%;
+  padding: 4px 8px;
+  border: none;
+  margin-left: 8px;
+  outline: none;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.word-input {
+  margin-bottom: 3rem;
+}
+
+.word-input .success {
+  color: green;
+}
+
+.word-input h2 {
+  margin: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+
+.word-input input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.time-score {
+  margin: 3rem;
+  font-size: 1.15rem;
+}
+
+.card {
+  background-color: darkslateblue;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+#message {
+  margin-top: 1.5rem;
+}
+
+#message .correct {
+  color: green;
+}
+
+#message .game-over {
+  color: red;
+}

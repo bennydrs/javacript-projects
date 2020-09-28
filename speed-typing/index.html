@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed Typing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Speed Typing</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="lavel">
+        <label for="level">Change Level</label>
+        <select id="level">
+        </select>
+      </div>
+      <div class="word-input">
+        <p>
+          Type The Given Word Within
+          <span class="success" id="seconds">5</span> Seconds:
+        </p>
+        <h2 id="current-word">hello</h2>
+        <input type="text" id="word-input" placeholder="Start typing..." autofocus>
+        <h4 id="message"></h4>
+      </div>
+
+      <div class="time-score">
+        <h3>Time Left:
+          <span id="time">0</span>
+        </h3>
+        <h3>Score:
+          <span id="score">0</span>
+        </h3>
+      </div>
+
+      <div class="instruction">
+        <div class="card">
+          <h4>Instructions</h4>
+          <p>Type each word in the given amount of seconds to score. To play again, just type the current word. Your
+            score will reset</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
