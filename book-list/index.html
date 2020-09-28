@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>MyBookList</h1>
+    <form id="book-form">
+      <label for="title">Title</label>
+      <input type="text" id="title" class="form-input">
+      <label for="author">Author</label>
+      <input type="text" id="author" class="form-input">
+      <label for="isbn">ISBN</label>
+      <input type="text" id="isbn" class="form-input">
+      <button type="submit" class="btn btn-block">Add Book</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

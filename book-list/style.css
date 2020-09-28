@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: teal;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background: #eee
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background: rgb(2, 62, 122);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-size: inherit;
+}
+
+.btn:hover {
+  background: rgb(2, 87, 172);
+}
+
+.btn.btn-block {
+  width: 100%;
+}
+
+.btn.btn-danger {
+  background: rgb(185, 44, 44);
+}
+
+.btn-sm {
+  padding: 2px 6px;
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+thead {
+  background-color: rgb(1, 143, 143);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(0, 109, 109);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(0, 87, 87);
+}
+
+.alert {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.alert.alert-success {
+  background: rgb(35, 168, 35);
+}
+
+.alert.alert-danger {
+  background: rgb(185, 44, 44);
+}
