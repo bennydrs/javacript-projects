@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f3057;
+  color: #e7e7de;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 515px;
+  margin: auto;
+}
+
+.stopwatch {
+  display: flex;
+}
+
+.stopwatch div {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+
+.action {
+  margin-top: 2rem;
+}
+
+button {
+  padding: .5rem 3rem;
+  margin: 1rem;
+  background-color: #00587a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  border-radius: 4px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #008891;
+}
+
+button:disabled {
+  background-color: #729597;
+  cursor: default;
+}
