@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.close-eyes,
+.open-eyes {
+  font-size: 14rem;
+  display: none;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+.close-eyes.active,
+.open-eyes.active {
+  display: block;
+}
