@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 [data-theme="light"] {
@@ -8,6 +9,7 @@
   --bg-navbar: #ddd;
   --bg-toggle: #ccc;
   --color-btn-primary: #fff;
+  --bg-btn-primary: #008080;
 }
 
 [data-theme="dark"] {
@@ -16,6 +18,7 @@
   --bg-navbar: #222;
   --bg-toggle: #333;
   --color-btn-primary: #222;
+  --bg-btn-primary: #00bbbb;
 }
 
 body {
@@ -24,6 +27,10 @@ body {
   min-height: 100vh;
   background-color: var(--bg-color);
   color: var(--color);
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -57,17 +64,19 @@ button#toggle:hover {
 }
 
 .btn {
+  display: inline-block;
   padding: 0.8rem 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   border: none;
   border-radius: 4px;
+  margin: 10px 0;
 }
-.btn {
+.btn:hover {
   cursor: pointer;
 }
 .btn-primary {
-  background-color: #00a1a1;
+  background-color: var(--bg-btn-primary);
   color: var(--color-btn-primary);
 }
 
